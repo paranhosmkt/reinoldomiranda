@@ -22,7 +22,7 @@ export const ABOUT_FULL_TEXT = `Passei mais de 30 anos dentro da indústria bras
 
 Comecei treinando e desenvolvendo pessoas dentro de um grupo siderúrgico, por 17 anos, do chão de fábrica até o nível executivo. Foi ali que aprendi, na prática, o que separa uma operação amadora de uma madura.
 
-Por mais de 10 anos, dirigi a Escola Técnica Tupy, em Joinville, e foi dessa direção que nasceu a Sociesc, hoje UniSociesc, centro universitário com mais de 90 cursos entre formação técnica, graduação e pós-graduação. Também fui diretor industrial da Termotécnica, líder brasileira em embalagens de EPS (isopor) para as indústrias de linha branca e eletroeletrônicos, e dirigi o PAEX, um dos programas de formação executiva mais respeitados do Brasil, dentro da Fundação Dom Cabral.
+Por mais de 10 anos, atuei como gestor e dirigi a Escola Técnica Tupy, em Joinville. A Sociesc era a mantenedora da Escola Técnica Tupy e, a partir desse trabalho em conjunto, foi desenvolvida a instituição Sociesc como escola de ensino superior, que mais tarde veio a se consolidar como UniSociesc — centro universitário de referência com mais de 90 cursos entre formação técnica, graduação e pós-graduação. Também fui diretor industrial da Termotécnica, líder brasileira em embalagens de EPS (isopor) para as indústrias de linha branca e eletroeletrônicos, e dirigi o PAEX, um dos programas de formação executiva mais respeitados do Brasil, dentro da Fundação Dom Cabral.
 
 Hoje, sou consultor e mentor de médias empresas, além de atuar junto a organizações como Impact Hub, CDL e ACIF. Foi dessa trajetória, chão de fábrica, sala de aula, alta gestão corporativa e mentoria direta, que nasceu a Metodologia MAGE® (Método de Avaliação e Gestão Empresarial): um método que criei para ajudar donos de PME a saírem da gestão por instinto e construírem empresas maduras, organizadas e prontas para crescer.`;
 
@@ -39,13 +39,13 @@ export const TIMELINE_MILESTONES: TimelineMilestone[] = [
   },
   {
     id: 'sociesc',
-    tag: '+10 ANOS DE DIREÇÃO',
-    title: 'Da Escola Técnica Tupy à Fundação da Sociesc',
-    role: 'Diretor Geral & Educador Executivo',
+    tag: '+10 ANOS DE GESTÃO & DIREÇÃO',
+    title: 'Da Escola Tupy ao Nascimento da UniSociesc',
+    role: 'Gestor & Diretor Geral',
     institution: 'Escola Técnica Tupy / Sociesc (hoje UniSociesc)',
     description:
-      'Mais de uma década na direção da renomada Escola Técnica Tupy em Joinville. Sob essa liderança nasceu a Sociesc (hoje UniSociesc), consolidando um centro universitário de referência com mais de 90 cursos de formação técnica, graduação e pós-graduação.',
-    takeaway: 'Estruturação pedagógica, rigor formativo e governança',
+      'Mais de uma década na gestão e direção da Escola Técnica Tupy em Joinville. A Sociesc atuava como mantenedora da Escola Técnica Tupy e, a partir desse trabalho em conjunto, foi desenvolvida a instituição Sociesc como escola de nível superior, que mais tarde veio a se tornar a UniSociesc — centro universitário de referência com mais de 90 cursos entre formação técnica, graduação e pós-graduação.',
+    takeaway: 'Gestão em conjunto, estruturação do ensino superior e governança',
   },
   {
     id: 'termotecnica',

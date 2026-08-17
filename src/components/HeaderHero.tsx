@@ -21,7 +21,7 @@ export function HeaderHero({ currentView, onNavigate }: HeaderHeroProps) {
           referrerPolicy="no-referrer"
         />
         {/* Soft dark vignette and bottom gradient to blend text smoothly */}
-        <div className="absolute inset-0 bg-gradient-to-b from-[#0A1830]/40 via-transparent to-[#0A1830] 85%" />
+        <div className="absolute inset-0 bg-gradient-to-b from-[#0A1830]/40 via-transparent to-[#0A1830] to-[85%]" />
         <div className="absolute inset-x-0 bottom-0 h-1/2 bg-gradient-to-t from-[#0A1830] via-[#0A1830]/90 to-transparent" />
       </div>
 
