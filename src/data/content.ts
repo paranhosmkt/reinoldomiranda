@@ -2,7 +2,7 @@ import { TimelineMilestone, MagePillar, MagePrinciple, MageArea } from '../types
 
 export const PROFILE = {
   name: 'Reinoldo Miranda',
-  title: 'Mentor de Executivos & Médias Empresas',
+  title: 'Mentor de empreendedores que buscam crescimento',
   subtitle: 'Criador da Metodologia MAGE®',
   headline: 'Passei mais de 30 anos dentro da indústria brasileira antes de transformar essa vivência em método.',
   location: 'Brasil',
