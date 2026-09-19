@@ -11,6 +11,7 @@ export const PROFILE = {
   whatsappNumber: '554892106224',
   whatsappDisplay: '+55 48 9210-6224',
   whatsappUrl: 'https://wa.me/554892106224?text=Ol%C3%A1%20Reinoldo,%20conheci%20seu%20perfil%20e%20gostaria%20de%20saber%20mais%20sobre%20sua%20Mentoria%20Executiva%20e%20a%20Metodologia%20MAGE%C2%AE.',
+  mentorshipFormUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSdHUANixH2Iwq7zDmw9tRh7Q1D_jUg5qlsEaVXpw04JfFY_EQ/viewform?usp=dialog',
   heroImage: 'https://i.ibb.co/Tq0MkhKz/Gemini-Generated-Image-lz0zp7lz0zp7lz0z.jpg',
   stats: [
     { label: 'EXPERIÊNCIA INDUSTRIAL', value: '+30 ANOS' },

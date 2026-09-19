@@ -6,6 +6,7 @@ import {
   ArrowRight,
   ExternalLink,
   Send,
+  Sparkles,
 } from 'lucide-react';
 import { PROFILE } from '../data/content';
 import { ActiveView } from '../types';
@@ -19,6 +20,38 @@ export function BioHome({ onNavigate }: BioHomeProps) {
     <div className="w-full bg-[#F8F6F1] py-6 sm:py-9 px-4 sm:px-6">
       <div className="max-w-lg mx-auto space-y-3">
         
+        {/* BOTÃO EM DESTAQUE: Participe da nossa 1° mentoria */}
+        <motion.div
+          whileHover={{ y: -2 }}
+          whileTap={{ scale: 0.99 }}
+          transition={{ duration: 0.15 }}
+        >
+          <a
+            id="link-mentoria-primeira-turma"
+            href={PROFILE.mentorshipFormUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group w-full flex items-center justify-between bg-white hover:bg-[#FFFFFF] rounded-xl px-4 py-3 sm:px-5 sm:py-3.5 border-2 border-[#B8944F] hover:border-[#9C7A3C] shadow-xs hover:shadow-md transition-all duration-200 cursor-pointer"
+          >
+            <div className="flex items-center gap-3 sm:gap-3.5">
+              <div className="w-9 h-9 rounded-lg bg-[#0E2040] text-[#D4B876] flex items-center justify-center shrink-0 border border-[#B8944F]/40 group-hover:bg-[#16294A] transition-colors">
+                <Sparkles className="w-4 h-4 text-[#D4B876]" />
+              </div>
+              <div className="text-left">
+                <span className="block font-serif text-base sm:text-lg font-bold text-[#0E2040] group-hover:text-[#B8944F] transition-colors leading-tight">
+                  Participe da nossa 1° mentoria
+                </span>
+                <span className="block font-mono text-[11px] uppercase tracking-wider text-[#9C7A3C] font-semibold pt-0.5">
+                  Formulário Oficial de Inscrição
+                </span>
+              </div>
+            </div>
+            <div className="w-7 h-7 rounded-full bg-[#0E2040] text-[#D4B876] group-hover:bg-[#B8944F] group-hover:text-[#0E2040] flex items-center justify-center shrink-0 border border-[#B8944F] transition-all">
+              <ExternalLink className="w-3.5 h-3.5" />
+            </div>
+          </a>
+        </motion.div>
+
         {/* BOTÃO 1: Quem sou eu? */}
         <motion.div
           whileHover={{ y: -2 }}

@@ -17,7 +17,7 @@ import {
   HelpCircle,
   BookOpen,
 } from 'lucide-react';
-import { MAGE_METHODOLOGY } from '../data/content';
+import { MAGE_METHODOLOGY, PROFILE } from '../data/content';
 import { ActiveView } from '../types';
 
 interface MethodologyPageProps {
@@ -395,18 +395,27 @@ export function MethodologyPage({ onNavigate }: MethodologyPageProps) {
           </p>
           <div className="pt-2 flex flex-wrap items-center justify-center gap-3">
             <a
+              id="btn-methodology-mentoria"
+              href={PROFILE.mentorshipFormUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-lg bg-[#B8944F] hover:bg-[#9C7A3C] text-[#0A1830] font-mono text-xs uppercase tracking-wider font-bold transition-colors cursor-pointer shadow-sm"
+            >
+              Participe da nossa 1° mentoria
+            </a>
+            <a
               id="btn-methodology-diagnostico"
               href="https://wa.me/554892106224?text=Ol%C3%A1%20Reinoldo,%20conheci%20a%20Metodologia%20MAGE%C2%AE%20e%20gostaria%20de%20conversar%20sobre%20o%20Diagn%C3%B3stico%20Oficial."
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-lg bg-[#B8944F] hover:bg-[#9C7A3C] text-[#0A1830] font-mono text-xs uppercase tracking-wider font-bold transition-colors cursor-pointer"
+              className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-lg bg-[#16294A] hover:bg-[#203864] text-[#EEF1F8] border border-[#B8944F]/40 font-mono text-xs uppercase tracking-wider font-semibold transition-colors cursor-pointer"
             >
-              Solicitar Diagnóstico MAGE®
+              Conversar no WhatsApp
             </a>
             <button
               id="btn-methodology-to-home"
               onClick={() => onNavigate('home')}
-              className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-lg bg-[#16294A] hover:bg-[#203864] text-[#EEF1F8] border border-[#16294A] font-mono text-xs uppercase tracking-wider font-semibold transition-colors cursor-pointer"
+              className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-lg bg-transparent hover:bg-[#16294A] text-[#EEF1F8]/80 hover:text-white border border-[#16294A] font-mono text-xs uppercase tracking-wider font-semibold transition-colors cursor-pointer"
             >
               Voltar ao Início
             </button>
