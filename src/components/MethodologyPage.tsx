@@ -401,7 +401,7 @@ export function MethodologyPage({ onNavigate }: MethodologyPageProps) {
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-lg bg-[#B8944F] hover:bg-[#9C7A3C] text-[#0A1830] font-mono text-xs uppercase tracking-wider font-bold transition-colors cursor-pointer shadow-sm"
             >
-              Participe da nossa 1° mentoria
+              Participe da nossa mentoria exclusiva
             </a>
             <a
               id="btn-methodology-diagnostico"

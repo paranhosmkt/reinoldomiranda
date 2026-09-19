@@ -39,10 +39,10 @@ export function BioHome({ onNavigate }: BioHomeProps) {
               </div>
               <div className="text-left">
                 <span className="block font-serif text-base sm:text-lg font-bold text-[#0E2040] group-hover:text-[#B8944F] transition-colors leading-tight">
-                  Participe da nossa 1° mentoria
+                  Participe da nossa mentoria exclusiva
                 </span>
                 <span className="block font-mono text-[11px] uppercase tracking-wider text-[#9C7A3C] font-semibold pt-0.5">
-                  Formulário Oficial de Inscrição
+                  Máximo de 15 pessoas
                 </span>
               </div>
             </div>
